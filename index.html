@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/Minesweeper.css">
+    <title>Minesweeper</title>
+</head>
+
+<body onload="init(4)">
+    <audio id="myAudio">
+        <source src="sound/gameMusic.wav" type="audio/ogg">
+        <source src="sound/gameMusic.wav" type="audio/mpeg">
+   </audio>
+    <h1>Minesweeper</h1>
+
+    <div class="game">
+        <button class="playAgain" onclick="init(4)"></button>
+        <div class="numOfFlags"></div>
+        <div class="Lifes"></div>
+        <button class="difficulty" onclick="init(4)">easy</button>
+        <button class="difficulty" onclick="init(6)">medium</button>
+        <button class="difficulty" onclick="init(10)">hard</button>
+        <div class="timer"></div>
+        <table border="1" cellpadding="10">
+            <tbody class="board"></tbody>
+        </table>
+        <div class="gameStatus"></div>
+    </div>
+
+    <script src="js/Minesweeper.js"></script>
+</body>
+
+</html>

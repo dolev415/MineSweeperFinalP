@@ -1,0 +1,97 @@
+tr,
+td {
+    border-color: rgb(22, 22, 22);
+}
+
+td {
+    width: 30px;
+    height: 30px;
+    min-width: 30px;
+    min-height: 30px;
+}
+
+h1 {
+    color: #111;
+    font-family: 'Helvetica Neue', sans-serif;
+    font-size: 50px;
+    font-weight: bold;
+    letter-spacing: -1px;
+    line-height: 1;
+    text-align: center;
+}
+
+body {
+    background-color: #a78484;
+}
+
+.timer {
+    text-shadow: 2px 2px;
+    box-shadow: aquamarine;
+    color: rgb(179, 47, 47);
+    font-family: 'Helvetica Neue', sans-serif;
+    font-size: 50px;
+    font-weight: bold;
+    letter-spacing: -1px;
+    line-height: 1;
+    margin-left: 30px;
+}
+
+button {
+    display: block;
+    margin: 0 auto;
+    margin-top: 13px;
+    background-color: #f35757;
+    padding: 8px;
+    border: 0;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+    height: 30px;
+    box-sizing: border-box;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: rgb(16, 53, 17);
+    opacity: 1;
+    border: 2px solid crimson;
+}
+
+.level {
+    position: absolute;
+    /* or absolute */
+    margin: 0 400px;
+}
+
+.numOfFlags {
+    border-radius: 30%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.difficulty {
+    background-color: #4CAF50;
+    /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    font-size: 16px;
+}
+
+.gameStatus {
+    border: 2px solid crimson;
+    font-size: 40px;
+    text-align: center;
+}
+
+table {
+    margin: auto;
+    margin-top: 30px;
+    margin: 10px auto;
+    border: 5px;
+    min-width: 100px;
+    min-height: 100px;
+}
